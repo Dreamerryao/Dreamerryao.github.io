@@ -4,7 +4,7 @@
 
 <head>
   
-  <title>clash for windows复活 - Dreamerryao&#39;s Blog</title>
+  <title>组会纪要 - Dreamerryao&#39;s Blog</title>
   <meta charset="UTF-8">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -12,23 +12,22 @@
   
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
-  <meta name="description" content="几天之前给自己不堪重负的笔记本装了Ubuntu双系统，测试后觉得没什么问题，突然发现windows的梯子挂了…">
+  <meta name="description" content="ZJUIDG_Group Meeting_2020&#x2F;5&#x2F;16">
 <meta property="og:type" content="article">
-<meta property="og:title" content="clash for windows复活">
-<meta property="og:url" content="https://dreamerryao.github.io/2020/05/20/Ubuntu19.10+Windows10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98%E9%80%A0%E6%88%90clash%20for%20windows%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8/index.html">
+<meta property="og:title" content="组会纪要">
+<meta property="og:url" content="https://dreamerryao.github.io/2020/05/16/GM_2020516/index.html">
 <meta property="og:site_name" content="Dreamerryao&#39;s Blog">
-<meta property="og:description" content="几天之前给自己不堪重负的笔记本装了Ubuntu双系统，测试后觉得没什么问题，突然发现windows的梯子挂了…">
+<meta property="og:description" content="ZJUIDG_Group Meeting_2020&#x2F;5&#x2F;16">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-05-19T16:00:00.000Z">
-<meta property="article:modified_time" content="2020-05-20T01:56:37.423Z">
+<meta property="article:published_time" content="2020-05-15T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-05-20T02:02:07.231Z">
 <meta property="article:author" content="dreamerryao">
-<meta property="article:tag" content="运维">
-<meta property="article:tag" content="Ubuntu+Windows">
-<meta property="article:tag" content="clash for windows">
+<meta property="article:tag" content="ZJUIDG">
+<meta property="article:tag" content="GroupMeeting">
 <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/nexmoe/nexmoe.github.io@latest/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
   
-  <!--<link rel="stylesheet" href="/css/style.css?v=1589939991431">-->
+  <!--<link rel="stylesheet" href="/css/style.css?v=1589940162770">-->
 
   
 <meta name="generator" content="Hexo 4.2.1"></head>
@@ -145,16 +144,16 @@
     <div class="nexmoe-primary">
         <div class="nexmoe-post">
   
-      <div class="nexmoe-post-cover" style="padding-bottom: 59.692307692307686%;"> 
-          <img data-src="https://cdn.jsdelivr.net/gh/dreamerryao/dreamerryao.github.io@latest/background/default.jpg" data-sizes="auto" alt="clash for windows复活" class="lazyload">
-          <h1>clash for windows复活</h1>
+      <div class="nexmoe-post-cover" style="padding-bottom: 57.082452431289646%;"> 
+          <img data-src="https://cdn.jsdelivr.net/gh/dreamerryao/dreamerryao.github.io@latest/background/cover/ZJUIDG_new.png" data-sizes="auto" alt="组会纪要" class="lazyload">
+          <h1>组会纪要</h1>
       </div>
   
   
   <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
-    <a><i class="nexmoefont icon-calendar-fill"></i>2020年05月20日</a>
-    <a><i class="nexmoefont icon-areachart"></i>599 字</a>
-    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 2 分钟</a>
+    <a><i class="nexmoefont icon-calendar-fill"></i>2020年05月16日</a>
+    <a><i class="nexmoefont icon-areachart"></i>206 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
 </div>
 
   <div class="nexmoe-post-right">
@@ -162,37 +161,47 @@
   </div>
 
   <article>
-    <p>几天之前给自己不堪重负的笔记本装了Ubuntu双系统，测试后觉得没什么问题，突然发现windows的梯子挂了…</p>
-<a id="more"></a>
-<h2 id="Ubuntu19-10-Windows10双系统时间同步问题造成clash-for-windows无法使用"><a href="#Ubuntu19-10-Windows10双系统时间同步问题造成clash-for-windows无法使用" class="headerlink" title="Ubuntu19.10+Windows10双系统时间同步问题造成clash for windows无法使用"></a>Ubuntu19.10+Windows10双系统时间同步问题造成clash for windows无法使用</h2><h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><ol>
-<li>发现自己在登录windows系统时总会提前8h，但当时没有注意，不影响使用就没啥太大问题。</li>
-<li>发现自己的clash for windows update profiles失败，报NET_error,取消代理后，更新成功，但是转回Proxies看到自己的节点统统time_out，心态崩了。</li>
-</ol>
-<p>最坑爹的是，在这期间，还给windows的C盘做了人工深度清理(?,什么注册表，临时文件，全删…. 于是就很容易想到，会不会是删系统盘给删崩了，于是就开始各种卸载安装，善用搜索，甚至强开了gpedit.msc，被一顿嘲笑，最后神奇的改“成功”了，结果第二天早上起来一看，又挂了…</p>
-<h3 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h3><ol>
-<li><p>关于clash，在读文档(链接附下方)时发现，clash for windows与v2Ray一样，对时间有严格的要求，客户端与服务端时间差不能超过1分钟，必须保证系统时间与Internet时间同步。</p>
+    <h2 id="ZJUIDG-Group-Meeting-2020-5-16"><a href="#ZJUIDG-Group-Meeting-2020-5-16" class="headerlink" title="ZJUIDG_Group Meeting_2020/5/16"></a>ZJUIDG_Group Meeting_2020/5/16</h2><a id="more"></a>
+
+<h3 id="投稿经验："><a href="#投稿经验：" class="headerlink" title="投稿经验："></a>投稿经验：</h3><ul>
+<li>早开始，进行详细的调研</li>
+<li><strong>完美主义陷阱</strong> 投稿系统不要追求完美，不要去深扣细节问题</li>
+<li>注意时间分配，项目推进要稳定进行，不要拖ddl,不要拖ddl,不要拖ddl!</li>
+<li>数据采集，引入准则 要进行及时评估+监督</li>
+<li>作图参考：Python+AI</li>
+<li>自己的思路要清晰，环环相扣</li>
+<li>写作方面：<ul>
+<li>上下文内容关联<ul>
+<li>过渡句</li>
+<li>相同的词语</li>
+<li>逻辑清晰，体现关联</li>
+<li>形式变化，不要固定开头</li>
+</ul>
 </li>
-<li><p>Ubuntu和Windows默认的时间管理方式不同，造成系统时间错乱。</p>
-<p>Ubuntu默认时间把BIOS实践当成GMT+0时间，也就是世界标准时，而我国在东八区(GTM+8),所以Unbuntu显示8点的时候BIOS中的时间是0点，但是我们切换到windows后，windows默认BIOS时间就是本地时间，所以windows显示就会是0点，也就是问题1，windows系统总提前8h的原因。</p>
-<p>所以解决方式就是同步二者的时间管理方式。</p>
+<li>结构清晰<ul>
+<li>每一段的首句总起</li>
+<li>规划好每一节内容</li>
+</ul>
 </li>
-</ol>
-<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>在这里我选择的是Ubuntu系统中作出修改，Ubuntu终端输入</p>
-<pre><code class="bash">sudo apt-get install ntpdate
-sudo nptdate time.windows.com #设置校正服务器
-sudo hwclock --localtime --systohc  #将本地时间写入硬件</code></pre>
-<p>重启打开Windows后就发现时间对了，这个时候打开clash for windows就可以发现我们的profiles更新于8小时之前，这也就是clash for windows必须保证时间相同的原因。再次更新就可以正常使用了。</p>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ol>
-<li>clash for windows文档: <a href="https://duang-cloud.gitbook.io/duangcloud/shi-yong-jiao-cheng/windows/clash-for-windows" target="_blank" rel="noopener">https://duang-cloud.gitbook.io/duangcloud/shi-yong-jiao-cheng/windows/clash-for-windows</a></li>
-<li>时间同步问题blog: <a href="https://blog.csdn.net/gatieme/article/details/51883981" target="_blank" rel="noopener">https://blog.csdn.net/gatieme/article/details/51883981</a></li>
-</ol>
+<li>简洁明了</li>
+</ul>
+</li>
+<li>后期应该专心论文写作上的修改</li>
+<li>要反复检查插图的关键信息<ul>
+<li>Caption label</li>
+<li>格式问题</li>
+<li>排版缺失</li>
+<li>信息错误</li>
+</ul>
+</li>
+</ul>
 
   </article>
 
   <div class="nexmoe-post-meta nexmoe-rainbow">
     
     
-        <a class="nexmoefont icon-tag-fill -link" href="/tags/Ubuntu-Windows/" rel="tag">Ubuntu+Windows</a> <a class="nexmoefont icon-tag-fill -link" href="/tags/clash-for-windows/" rel="tag">clash for windows</a> <a class="nexmoefont icon-tag-fill -link" href="/tags/%E8%BF%90%E7%BB%B4/" rel="tag">运维</a>
+        <a class="nexmoefont icon-tag-fill -link" href="/tags/GroupMeeting/" rel="tag">GroupMeeting</a> <a class="nexmoefont icon-tag-fill -link" href="/tags/ZJUIDG/" rel="tag">ZJUIDG</a>
     
 </div>
 
@@ -201,7 +210,7 @@ sudo hwclock --localtime --systohc  #将本地时间写入硬件</code></pre>
       
   <div class="nexmoe-post-copyright">
     <strong>Author：</strong>dreamerryao<br>
-    <strong>Link：</strong><a href="https://dreamerryao.github.io/2020/05/20/Ubuntu19.10+Windows10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98%E9%80%A0%E6%88%90clash%20for%20windows%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8/" title="https:&#x2F;&#x2F;dreamerryao.github.io&#x2F;2020&#x2F;05&#x2F;20&#x2F;Ubuntu19.10+Windows10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98%E9%80%A0%E6%88%90clash%20for%20windows%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;dreamerryao.github.io&#x2F;2020&#x2F;05&#x2F;20&#x2F;Ubuntu19.10+Windows10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98%E9%80%A0%E6%88%90clash%20for%20windows%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8&#x2F;</a><br>
+    <strong>Link：</strong><a href="https://dreamerryao.github.io/2020/05/16/GM_2020516/" title="https:&#x2F;&#x2F;dreamerryao.github.io&#x2F;2020&#x2F;05&#x2F;16&#x2F;GM_2020516&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;dreamerryao.github.io&#x2F;2020&#x2F;05&#x2F;16&#x2F;GM_2020516&#x2F;</a><br>
     
       <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
     
@@ -231,7 +240,7 @@ sudo hwclock --localtime --systohc  #将本地时间写入硬件</code></pre>
   </div>
   <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js,gh/nexmoe/nexmoe.github.io@latest/js/app.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-<!--<script src="/js/app.js?v=1589939991432"></script>-->
+<!--<script src="/js/app.js?v=1589940162771"></script>-->
 
 
     <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
